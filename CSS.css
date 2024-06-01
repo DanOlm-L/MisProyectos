@@ -1,0 +1,118 @@
+
+ul{
+    list-style-type:none ;
+    display: flex ;
+    flex-direction: row-reverse;
+    font-family: 'Verdana';
+    
+    }
+
+li {
+    padding-right: 50px;
+}
+
+
+main{
+    background-image: url(https://escuelasdecodigo.cdmx.gob.mx/wp-content/themes/escuelasdecodigo/dist/assets/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    
+    
+}
+
+h1 {
+    position: static;
+    color: rgb(255, 255, 255);
+    font-family: 'Verdana';
+}
+
+
+.vector {
+    position: relative;
+    left: 155px ; 
+    top: 40px;
+    }
+
+#aprende {
+    font-size: 41px; 
+    position: relative;
+    left: 155px ;
+    top: 20px  ;
+    font-family: 'Candara';
+}
+
+#enlas {
+    font-weight: normal;
+    font-size: 40px ;
+    font-style: inherit;
+    position: relative;
+    left: 310px ;
+    top: 18px;
+    font-family: 'Lucida Console'; 
+}
+
+#escuelas {
+    font-weight: bold;
+    font-size:80px;
+    position: absolute;
+    left:35%;
+    top:30%;
+    font-family: 'Candara';
+    text-transform: uppercase;
+
+}
+
+#codigo {
+    font-weight: bold;
+    font-size:80px;
+    position: relative;
+    left: 34.8% ;
+    top: 30px ;
+    font-family:'Candara';
+}
+
+#cdmx {
+    font-weight: normal;
+    font-size: 40px ;
+    font-style: inherit;
+    position: relative;
+    left: 35%;
+    top:18px;
+    font-family: 'Lucida Console'; 
+}
+
+
+footer {
+
+    flex-direction:column;
+    text-align: center; 
+}
+
+h2 {
+    color: rgb(255, 166, 0);
+    font-family:'Trebuchet MS';
+    position: static; 
+    top: 10px;
+}
+
+#persona{
+    font-weight: bolder;
+    top:0px;
+    font-family: 'Tahoma';
+    position: static;  
+}
+
+#edad {
+    flex-direction:row ;
+    align-items: center;
+    font-family: 'Verdana';
+    position: static;  
+    top: 20px;
+}
+
+a {
+    text-decoration: none; 
+    font-size: 15px;
+   
+}
